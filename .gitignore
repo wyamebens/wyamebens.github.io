@@ -15,7 +15,3 @@ node_modules/
 output/playwright/
 test-results/
 vendor
-
-# Python bytecode from bin/ helper scripts
-__pycache__/
-*.pyc

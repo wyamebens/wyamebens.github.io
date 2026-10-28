@@ -1,34 +1,33 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Ph.D. Candidate, <a href='https://ieor.berkeley.edu/'>IEOR @ UC Berkeley</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: wyame_profile.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info:
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<style>
+  .profile { width: 200px !important; max-width: 200px !important; }
+</style>
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am a fifth-year Ph.D. candidate in [Industrial Engineering and Operations Research](https://ieor.berkeley.edu/) at UC Berkeley, advised by [Prof. Paul Grigas](https://grigas.ieor.berkeley.edu/). I graduated from [École CentraleSupélec](https://www.centralesupelec.fr/) in 2021 with an Engineering Degree in Applied Mathematics.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research focuses on data-driven decision-making under uncertainty, at the intersection of machine learning and optimization. I am particularly interested in how leveraging the structure of optimization problems can improve decision quality, a central motivation behind decision-focused learning.
+
+More broadly, I aim to develop learning and optimization methods that combine theoretical guarantees with practical relevance, accounting for the underlying structure of decision problems and the downstream consequences of the decisions they produce.
+
+My recent work extends decision-focused learning to online settings, where decisions must be made sequentially and updated using partial feedback observed only for the actions taken. I am currently exploring how to extend these methods to settings where satisfying constraints is a key component of decision quality.
