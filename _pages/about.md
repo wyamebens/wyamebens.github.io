@@ -21,7 +21,12 @@ latest_posts:
 ---
 
 <style>
-  .profile { width: 200px !important; max-width: 200px !important; }
+  @media (min-width: 768px) {
+    .profile { width: 200px !important; max-width: 200px !important; }
+  }
+  @media (max-width: 767px) {
+    .profile { float: none !important; width: 60% !important; max-width: 240px; margin: 0 0 1rem 0 !important; padding: 0 !important; }
+  }
 </style>
 
 I am a fifth-year Ph.D. candidate in [Industrial Engineering and Operations Research](https://ieor.berkeley.edu/) at UC Berkeley, advised by [Prof. Paul Grigas](https://grigas.ieor.berkeley.edu/). I graduated from [École CentraleSupélec](https://www.centralesupelec.fr/) in 2021 with an Engineering Degree in Applied Mathematics.
