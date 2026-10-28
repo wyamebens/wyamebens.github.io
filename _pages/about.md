@@ -30,4 +30,4 @@ My research focuses on data-driven decision-making under uncertainty, at the int
 
 More broadly, I aim to develop learning and optimization methods that combine theoretical guarantees with practical relevance, accounting for the underlying structure of decision problems and the downstream consequences of the decisions they produce.
 
-My recent work extends decision-focused learning to online settings, where decisions must be made sequentially and updated using partial feedback observed only for the actions taken. I am currently exploring how to extend these methods to settings where satisfying constraints is a key component of decision quality.
+My recent work extends decision-focused learning to online settings, where decisions must be made sequentially and updated using partial feedback. I am currently exploring how to extend these methods to settings where satisfying constraints is a key component of decision quality.
